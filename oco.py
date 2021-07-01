@@ -78,7 +78,8 @@ class Oco:
 
         # Declare instance attributes
         self.actions = []
-        self.menu = self.tr(u'&Oco e Morfo')
+        #self.menu = self.tr(u'&Oco e Morfo')
+        self.menu = self.tr(u'&Roos')
 
         # Check if plugin was started the first time in current QGIS session
         # Must be set in initGui() to survive plugin reloads
@@ -207,7 +208,8 @@ class Oco:
         """Removes the plugin menu item and icon from QGIS GUI."""
         for action in self.actions:
             self.iface.removePluginMenu(
-                self.tr(u'&Oco e Morfo'),
+                #self.tr(u'&Oco e Morfo')
+                self.tr(u'&Roos'),
                 action)
             self.iface.removeToolBarIcon(action)
 
