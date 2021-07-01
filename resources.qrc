@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/plugins/oco" >
+        <file>icon.png</file>
+        <file>iconCOORD.png</file>
+    </qresource>
+</RCC>
