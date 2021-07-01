@@ -1,0 +1,1 @@
+deixar os icones png todos com tamanho 40 x 25
